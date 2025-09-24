@@ -1,4 +1,3 @@
-javascript:(function(){
     if(window.FakeDevToolsActive) return;
     window.FakeDevToolsActive = true;
 
@@ -426,4 +425,3 @@ javascript:(function(){
     setTheme(isDarkMode);
     restoreState();
     loadPanelWidth(); // Load saved width if exists
-})();
