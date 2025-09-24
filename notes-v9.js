@@ -1,4 +1,4 @@
-    if(window.FakeDevToolsActive) return;
+if(window.FakeDevToolsActive) return;
     window.FakeDevToolsActive = true;
 
     const d = document,
